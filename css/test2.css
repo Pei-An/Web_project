@@ -1,0 +1,44 @@
+.abgne_tip_gallery_block {
+	margin: 0;
+	padding: 0;
+	width: 384px;
+	height: 257px;
+	overflow: hidden;
+	position: relative;
+}
+.abgne_tip_gallery_block img {
+	position: absolute;
+	border: 0;
+}
+.abgne_tip_gallery_block .caption {
+	position: absolute;
+	bottom: 0;
+	width: 354px;	/* .abgne_tip_gallery_block 的寬 - .caption 的左右 padding */
+	padding: 15px 30px 20px;
+	cursor: pointer;
+	color: #fff;
+	background: url(http://demonstration.abgne.tw/jquery/0029/images/1px_black.png) repeat;
+}
+.abgne_tip_gallery_block .desc{
+  width: 324px;
+}
+.abgne_tip_gallery_block .caption h2 {
+	margin: 0;
+	padding: 0px 0px 15px;
+}
+.abgne_tip_gallery_block .caption h2 a {
+	text-decoration: none;
+	color: #fc6; 
+}
+.abgne_tip_gallery_block .caption h2 a:hover {
+	text-decoration: underline;
+}
+.abgne_tip_gallery_block .caption {
+	position: absolute;
+	top: 120px;	/* .abgne_tip_gallery_block 的高 - 想顯示 title 的高(這邊是設 55) */
+	width: 354px;	/* .abgne_tip_gallery_block 的寬 - .caption 的左右 padding */
+	padding: 15px 30px 20px;
+	cursor: pointer;
+	color: #fff;
+	background: url(http://demonstration.abgne.tw/jquery/0029/images/1px_black.png) repeat;
+}
