@@ -204,13 +204,24 @@ table {
 }
 
 .search ul{
-	margin: 0 auto;
+	margin-left: 50px;
 }
 
 .search li{
 	float: left;
 	padding-left: 20px;
 	font-size: 20px;
+}
+
+input{
+	margin-left: 80px;
+	font-family: 微軟正黑體;
+	color: #fff;
+	font-size: 18px;
+	background-color: #2E75B8;
+	width: 120px;
+	height: 28px;
+	border: 1px solid #2E75B8;
 }
 
 select{
@@ -236,6 +247,24 @@ select{
 	height: 80px;
 	margin: 0 auto;
 	background-image: url(../pic/result.png);
+}
+
+.shelter{
+	margin-top: 50px;
+	margin-left: 5px;
+}
+
+.shelter-top{
+	height: 6px;
+	background-color: #DAB1D5;
+}
+
+.shelter h2 a{
+	display: block;
+	width: 261px;
+	height: 80px;
+	margin: 0 auto;
+	background-image: url(../pic/shelter.png);
 }
 
 .abgne_tip_gallery_block {
