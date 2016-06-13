@@ -55,7 +55,7 @@ table {
 .header{
 	height: 120px;
 	background-color: #F8CCAF;
-	padding: 0px 220px;
+	padding: 0px 18%;
 }
 
 .header h1 a{
@@ -67,7 +67,7 @@ table {
 
 .menu{
 	position: absolute;
-	right: 220px;
+	right: 18%;
 	top: 80px;
 }
 
