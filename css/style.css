@@ -249,6 +249,49 @@ select{
 	background-image: url(../pic/result.png);
 }
 
+.result_all ul{
+	width: 939px;
+}
+
+.result_all li{
+	float: left;
+	width: 280px;
+	height: 420px;
+	list-style: none;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #BEBEBE;
+
+	padding: 5px 0px;
+	border-radius: 8px;
+}
+
+.result_all li p{
+	padding: 0px 20px;
+}
+
+.result_all .pic{
+	width: 240px;
+	height: 240px;
+	border: 1px solid #BEBEBE;
+	text-align : center;
+	line-height: 240px;
+	margin: 0 auto;
+}
+
+.result_all li img{
+	width: auto;
+	height : auto;
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align : middle;
+}
+
+.result_all p img{
+	width: 20px;
+	height: 20px;
+}
+
 .shelter{
 	margin-top: 50px;
 	margin-left: 5px;
